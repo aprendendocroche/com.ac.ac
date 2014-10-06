@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
+    id              = "com.ac.ac"
+    version         = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Aprendendo Crochê</name>
+
+    <description>
+        Aplicativo Aprendendo Crochê
+    </description>
+
+    <author href="http://aprendendocroche.com" email="ac@aprendendocroche.com">
+        www.aprendendocroche.com
+    </author>
+	
+	<icon src="drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="drawable-hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="drawable-xhdpi/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+
+	<icon src="drawable-ldpi/icon.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="drawable-mdpi/icon.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="drawable-hdpi/icon.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="drawable-xhdpi/icon.png" gap:platform="android" gap:density="xhdpi" />
+
+	
+	<access origin="*" subdomains="true" />
+	<content src="http://aprendendocroche.com/mobile/index.asp?apk=android" />
+	
+	<supports-screens  android:anyDensity = "true"  android:resizeable = "true"  
+		android:smallScreens = "true"  
+		android:normalScreens = "true"  
+		android:largeScreens = "true"  
+		android:xlargeScreens = "true"  />	
+
+</widget>
